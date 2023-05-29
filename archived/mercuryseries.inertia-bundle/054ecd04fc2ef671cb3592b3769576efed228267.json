@@ -35,6 +35,15 @@
                 "gitignore": [
                     "/%PUBLIC_DIR%/build-ssr/"
                 ],
+                "add-lines": [
+                    {
+                        "file": "config/routes.yaml",
+                        "content": "    defaults:\n        csrf:\n            create: true\n            require:\n                - 'POST'\n                - 'PUT'\n                - 'PATCH'\n                - 'DELETE'",
+                        "position": "after_target",
+                        "target": "type: attribute",
+                        "warn_if_missing": true
+                    }
+                ],
                 "post-install-output": [
                     "  <bg=blue;fg=white>                                                              </>",
                     "  <bg=blue;fg=white>         Getting started using </><bg=blue;fg=white;options=bold>mercuryseries/inertia-maker-bundle</><bg=blue;fg=white>         </>",
@@ -493,7 +502,7 @@
                     "executable": false
                 }
             },
-            "ref": "7cfbfda9b0532a24ad7a96d2219c48be6272fcb0"
+            "ref": "054ecd04fc2ef671cb3592b3769576efed228267"
         }
     }
 }
