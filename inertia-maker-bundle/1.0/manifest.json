@@ -7,14 +7,14 @@
         "Symfony\\Bundle\\TwigBundle\\TwigBundle": ["all"],
         "MercurySeries\\Bundle\\InertiaMakerBundle\\MercurySeriesInertiaMakerBundle": ["all"],
     },
-    "copy-from-package": {
-        "install/assets/": "assets/",
-        "install/package.json": "package.json",
-        "install/jsconfig.json": "jsconfig.json",
-        "install/webpack.config.js": "webpack.config.js"
-    },
     "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
+        "assets/": "assets/",
+        "config/": "%CONFIG_DIR%/",
+        "templates/": "templates/",
+        "package.json": "package.json",
+        "webpack.config.js": "webpack.config.js",
+        "webpack.ssr.config.js": "webpack.ssr.config.js",
+        "jsconfig.json": "jsconfig.json"
     },
     "gitignore": ["/%PUBLIC_DIR%/build-ssr/"]
 }
