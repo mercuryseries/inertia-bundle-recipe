@@ -8,7 +8,7 @@
     "recipe-conflicts": [],
     "versions": [],
     "branch": "main",
-    "is_contrib": false,
+    "is_contrib": true,
     "_links": {
         "repository": "github.com/mercuryseries/inertia-maker-bundle-recipe",
         "origin_template": "{package}:{version}@github.com/mercuryseries/inertia-maker-bundle-recipe:main",
