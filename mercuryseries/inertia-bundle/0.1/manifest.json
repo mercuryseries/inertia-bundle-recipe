@@ -5,7 +5,7 @@
         "FOS\\JsRoutingBundle\\FOSJsRoutingBundle": ["all"],
         "Symfony\\WebpackEncoreBundle\\WebpackEncoreBundle": ["all"],
         "Symfony\\Bundle\\TwigBundle\\TwigBundle": ["all"],
-        "MercurySeries\\Bundle\\InertiaMakerBundle\\MercurySeriesInertiaMakerBundle": ["all"]
+        "MercurySeries\\Bundle\\InertiaBundle\\MercurySeriesInertiaBundle": ["all"]
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/",
