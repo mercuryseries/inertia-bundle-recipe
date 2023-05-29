@@ -1,0 +1,20 @@
+{
+    "bundles": {
+        "Rompetomp\\InertiaBundle\\RompetompInertiaBundle": ["all"],
+        "Dneustadt\\CsrfCookieBundle\\DneustadtCsrfCookieBundle::class": ["all"],
+        "FOS\\JsRoutingBundle\\FOSJsRoutingBundle": ["all"],
+        "Symfony\\WebpackEncoreBundle\\WebpackEncoreBundle": ["all"],
+        "Symfony\\Bundle\\TwigBundle\\TwigBundle": ["all"],
+        "MercurySeries\\Bundle\\InertiaMakerBundle\\MercurySeriesInertiaMakerBundle": ["all"],
+    },
+    "copy-from-package": {
+        "install/assets/": "assets/",
+        "install/package.json": "package.json",
+        "install/jsconfig.json": "jsconfig.json",
+        "install/webpack.config.js": "webpack.config.js"
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "gitignore": ["/%PUBLIC_DIR%/build-ssr/"]
+}
