@@ -5,7 +5,7 @@ import ReactDOMServer from "react-dom/server";
 import Layout from "@/components/Layout";
 import "../styles/app.css";
 
-const appName = "[TO_REPLACE]";
+const appName = "Symfony ❤️ Inertia.js";
 
 createServer((page) =>
   createInertiaApp({

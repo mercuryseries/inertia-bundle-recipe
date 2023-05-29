@@ -4,7 +4,7 @@ import { createInertiaApp } from "@inertiajs/react";
 import Layout from "./components/Layout";
 import "../styles/app.css";
 
-const appName = "[TO_REPLACE]";
+const appName = "Symfony ❤️ Inertia.js";
 
 createInertiaApp({
   progress: {
