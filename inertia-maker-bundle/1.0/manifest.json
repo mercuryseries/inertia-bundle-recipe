@@ -8,8 +8,9 @@
         "MercurySeries\\Bundle\\InertiaMakerBundle\\MercurySeriesInertiaMakerBundle": ["all"],
     },
     "copy-from-recipe": {
-        "assets/": "assets/",
         "config/": "%CONFIG_DIR%/",
+        "src/": "%SRC_DIR%/",
+        "assets/": "assets/",
         "templates/": "templates/",
         "package.json": "package.json",
         "webpack.config.js": "webpack.config.js",
