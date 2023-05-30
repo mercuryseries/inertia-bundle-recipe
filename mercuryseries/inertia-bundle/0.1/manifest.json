@@ -1,0 +1,18 @@
+{
+    "bundles": {
+        "MercurySeries\\Bundle\\InertiaBundle\\MercurySeriesInertiaBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "gitignore": ["/%PUBLIC_DIR%/build-ssr/"],
+    "add-lines": [
+        {
+            "file": "config/routes.yaml",
+            "content": "    defaults:\n        csrf:\n            create: true\n            require:\n                - 'POST'\n                - 'PUT'\n                - 'PATCH'\n                - 'DELETE'",
+            "position": "after_target",
+            "target": "type: attribute",
+            "warn_if_missing": true
+        }
+    ]
+}
